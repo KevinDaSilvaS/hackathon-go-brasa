@@ -9,7 +9,7 @@
     <meta name="description" content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google.">
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template, eCommerce dashboard, analytic dashboard">
     <meta name="author" content="ThemeSelect">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="apple-touch-icon" href="../../../app-assets/images/favicon/apple-touch-icon-152x152.png">
     <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/favicon/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -98,20 +98,6 @@ data-open="click" data-menu="vertical-dark-menu" data-col="2-columns" style="bac
                         <hr>
                         <hr>
                         <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
-                        <hr>
 
 
                         <!--Basic Form-->
@@ -125,6 +111,12 @@ data-open="click" data-menu="vertical-dark-menu" data-col="2-columns" style="bac
                                     <div class="card-content">
                                         <img style="margin-left: 1.2em;" class="card-title" width="250px" height="80px"  src="logo.png" alt="">
                                         <form>
+
+                                            <div class="input-field col m6 s12">
+                                                <label for="nome">Nome: </label>
+                                                <input type="text" id="nome" class="" aria-required="true"
+                                                    name="nome" required="" required>
+                                            </div>
                                             
                                             <div class="input-field col m6 s12">
                                                 <label for="Email">Email: </label>
@@ -136,19 +128,31 @@ data-open="click" data-menu="vertical-dark-menu" data-col="2-columns" style="bac
                                                 <input type="password" id="Senha" class="" aria-required="true"
                                                     name="Senha" required="" required>
                                             </div>
+
+                                            <div class="input-field col m6 s12">
+                                                <label for="confSenha">Confirmar Senha: </label>
+                                                <input type="password" id="confSenha" class="" aria-required="true"
+                                                    name="confSenha" required="" required>
+                                            </div>
         
                                                 <div class="row">
                                                     <div class="input-field col s2"></div>
                                                     </div>
+
+                                                    <div class="input-field col s6">
+                                                        <a href="" class="btn white-text" style="background-color: rgb(184, 31, 38) !important; font-size: 9px;">Sou Cervejeiro</a>
+                                                    </div>
+
+                                                    <div class="input-field col s6">
+                                                        <a href="" class="btn white-text" style="background-color: rgb(184, 31, 38) !important; font-size: 9px;">Sou Vendedor</a>
+                                                    </div>
+
                                                     <div class="input-field col s9">
-                                                        <button style="background-color: #F1000B !important;" class="btn cyan waves-effect waves-light right" type="submit" name="action">Login
+                                                        <button style="background-color: #F1000B !important;" class="btn cyan waves-effect waves-light right" type="submit" name="action">Cadastrar
                                                             <i class="material-icons right">send</i>
                                                         </button>
                                                     </div>
                                                     <div class="input-field col s1"></div>
-                                                    <div class="input-field col s12" style="text-align: center;">
-                                                    <a style="font-weight: bolder;" class="red-text" href="cadastro.html">Não possui conta? cadastre-se gratuitamente.</a>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </form>
